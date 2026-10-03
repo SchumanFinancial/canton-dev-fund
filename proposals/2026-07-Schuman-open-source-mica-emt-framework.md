@@ -21,6 +21,24 @@ The proposed framework would provide the technical and operational foundation fo
 EURØP would be the first intended implementation, using Schuman’s experience as a regulated European EMT issuer as the reference point. The funded deliverable, however, would be issuer-neutral and released under an open-source license.
 
 The framework would support stablecoins referencing one official currency, such as EUR, USD, GBP, CHF, or PLN, provided the issuer itself is properly licensed. It would create a common foundation for regulated fiat stablecoin issuance on Canton and help support wider adoption of regulated tokenisation, institutional settlement, collateral mobility, intraday repo, treasury flows, and payment use cases.
+---
+
+## Dev Fund 2.0 RFP Mapping
+
+**Primary RFP category:** RWA Standards — Daml and Institutional RWA Workflow Standards  
+**Secondary RFP category:** Payments and DeFi  
+
+This proposal maps primarily to the RWA Standards RFP because it develops reusable Daml models, interfaces, documentation, reporting patterns and reference implementation components for regulated fiat-backed stablecoin issuance on Canton. The framework covers token issuance, redemption, issuer controls, asset metadata, reporting, integration guidance, and institutional operating workflows for EMT-style stablecoins.
+
+It also maps secondarily to Payments and DeFi because regulated fiat stablecoins are a settlement and payment asset for institutional Canton applications. The framework is intended to make it easier for Canton applications to integrate compliant euro-denominated settlement, treasury, collateral, tokenized asset and payment workflows.
+
+## Why the Ecosystem Needs It
+
+Canton’s institutional finance ecosystem needs regulated fiat settlement assets that can be issued, redeemed, controlled, reported and audited by licensed entities. Without a reusable framework, each regulated issuer must build its own Canton implementation from scratch, including minting, burning, issuer roles, holder eligibility, blacklist and freeze functionality, regulator and auditor visibility, key ceremony documentation, deployment guidance and issuer-platform integration.
+
+The direct beneficiaries are regulated stablecoin issuers, tokenized asset platforms, payment applications, institutional settlement workflows, collateral mobility applications, treasury platforms, auditors, regulators and Canton ecosystem developers. These participants need a shared reference framework that reduces duplication, lowers implementation risk, and makes regulated fiat-backed stablecoins easier to evaluate and integrate.
+
+The adoption impact is that Canton applications gain a practical foundation for integrating EMT-style stablecoins as compliant settlement assets. EURØP is expected to be the first intended implementation, but the framework is designed to be issuer-neutral and reusable by other qualified issuers. This supports broader adoption of Canton for regulated payments, tokenized assets, collateral workflows, treasury flows, intraday repo and institutional settlement.
 
 ---
 
